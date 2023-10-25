@@ -29,7 +29,12 @@ const StyledLink = styled(Link)`
 export default function HomePage() {
   return (
     <>
-      <h1>Hello Surfers 🏄</h1>
+      <h1>
+        Hello Surfers{" "}
+        <span role="img" aria-label="A emoji indicating the cool surfer course">
+          🏄
+        </span>
+      </h1>
       <StyledButton>The Button</StyledButton>
       <br />
       <StyledLink href="/">The Link</StyledLink>
